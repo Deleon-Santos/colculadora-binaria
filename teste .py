@@ -8,10 +8,12 @@ def decimal():
     lista_binar = [int(digito) for digito in binario]
 
     valor_decimal = 0
-    for i in range(len(lista_binar)):
-        valor_decimal += lista_binar[-(i+1)] * (2 ** i)
+    for i in range(len(lista_binar)):#para as iterações no tamanho da lista 
+        valor_decimal += lista_binar[-(i+1)] * (2 ** i)#iterador  de [-1]*2**iterador
 
     print(f"Valor decimal: {valor_decimal}")
+
+
 def binarios():
 #Converte para binario
     binarios = []
@@ -27,6 +29,7 @@ def binarios():
         binarios.insert(0,1)
     
     print(binarios)
+
 
 def hexadecimal_para_decimal():
     # Converte para decimal 
@@ -51,13 +54,25 @@ def hexadecimal_para_decimal():
     print(f"Valor decimal: {valor_decimal}")
 
 
-print('1-Converter binario para decimal\n2-Converter decimal para binario\n3-Converter hexa para decimal\n')
-menu=input("Escolha uma ação")
-if menu=='1':
-    decimal()
-elif menu =='2':
-    binarios()
-elif menu =='3':
-    hexadecimal_para_decimal()
+def decimal_para_hexadecimal():
+    decimal=int(input('Entre com o número hexadecimal: '))
+    r=hex(decimal)[2:]
+    print(r)
+
+    
+while True:
+    print('\n0-Sair\n1-Converter binario para decimal\n2-Converter decimal para binario\n3-Converter hexadecimal para decimal\n4-Converter decimal para hexadecimal')
+    menu=input("Escolha uma acao: ")
+    if menu=='1':
+        decimal()
+    elif menu =='2':
+        binarios()
+    elif menu =='3':
+        hexadecimal_para_decimal()
+    elif menu == '4':
+        decimal_para_hexadecimal()
+    elif menu == "0":
+        break
+
     
 
