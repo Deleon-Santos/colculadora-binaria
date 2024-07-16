@@ -13,6 +13,7 @@ Aplicação desenvolvida para facilitar o entendimento e ajudar nas atividades d
 
 - Python 3.x instalado
 - Conhecimento básico em execução de scripts Python
+
 ## Desenvolvido por:
 
 - Deleon Santos

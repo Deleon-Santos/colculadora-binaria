@@ -4,7 +4,7 @@
 
 
 def decimal():
-    binario = int(input('Entre com o número binário: '))
+    binario = input('Entre com o número binário: ')
     lista_binar = [int(digito) for digito in binario]#converte a string em inteiros individuais
     
     valor_decimal = 0
@@ -19,13 +19,13 @@ def binarios():
     decimal = int(input('digite o valor decimal: '))
 
     while decimal>1:
-        resto = decimal# resto recebe a divisao inteira do input pela base binaria "2".
+        resto = decimal//2 # resto recebe a divisao inteira do input pela base binaria "2".
     
-        binario = decimal%2# o binario deve receber o resto da divisao,
+        binario = decimal%2 # o binario deve receber o resto da divisao,
         decimal = resto
         binarios.insert(0,binario)# o binario e inserido sepre ana primeira posição da lista
-    if binario <= 1:#quando o binario for =< 1 significa que ele não podera ser um divisor e sera então acrecentado a lista
-        binarios.insert(0,1)
+        if binario <= 1:#quando o binario for =< 1 significa que ele não podera ser um divisor e sera então acrecentado a lista
+            binarios.insert(0,1)
     
     print(binarios)
 
