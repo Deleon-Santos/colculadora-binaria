@@ -29,7 +29,7 @@ Aplicação desenvolvida para facilitar o entendimento e ajudar nas atividades d
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/Deleon-Santos/colculadora-binaria.git
+   git clone https://github.com/Deleon-Santos/calculadora-binaria.git
 
 ---
 ### Licença
