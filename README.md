@@ -1,6 +1,11 @@
-# Aplicação de Conversão de Binarios Decimal e Hexadecimal
 
-Aplicação desenvolvida para facilitar o entendimento e ajudar nas atividades de matemática aplicada à computação.
+<p align="center">
+  <img src="/src//img.png" width="450">
+</p>
+
+# Calculadora de numeros Binarios, Becimais e Hexadeciais
+
+Aplicação desenvolvida para facilitar o entendimento e ajudar nas atividades de matemática aplicada à computação. Usando Python e seus recursos além de interface grafica foi possivel desenvolver uma aplicação que facilita a conversao de valores.
 
 ## Funcionalidades
 
@@ -24,4 +29,11 @@ Aplicação desenvolvida para facilitar o entendimento e ajudar nas atividades d
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Deleon-Santos/colculadora-binaria.git
+
+---
+### Licença
+
+MIT License
+
+Copyright (c) 2025 Leon Santos
