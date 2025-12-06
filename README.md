@@ -3,7 +3,7 @@
   <img src="/src//img.png" width="450">
 </p>
 
-# Calculadora de numeros Binarios, Becimais e Hexadeciais
+# Calculadora de numeros Binários, Decimais e Hexadeciais
 
 Aplicação desenvolvida para facilitar o entendimento e ajudar nas atividades de matemática aplicada à computação. Usando Python e seus recursos além de interface grafica foi possivel desenvolver uma aplicação que facilita a conversao de valores.
 
